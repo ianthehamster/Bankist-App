@@ -277,7 +277,5 @@ btnScrollTo.addEventListener('click', function (e) {
     document.documentElement.clientHeight,
     document.documentElement.clientWidth
   );
-
-
   section1.scrollIntoView({ behavior: 'smooth' });
 });
